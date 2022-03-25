@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Poppins:wght@300;400;500&display=swap');
+
+html {
+  font-size: 62.5%;
+  font-family: 'Poppins', sans-serif;
+}
+
+/*********************/
+/*****Utilties*******/
+/********************/
+.flex-vt-sp {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+
+
+.secondary-heading {
+  text-align: center;
+}
+
+/*********************/
+/*****NAVBAR CSS******/
+/********************/
+.nav-container {
+  width: 100%;
+  margin: 0;
+  background-color: #fff;
+}
+
+.navbar-search {
+  width: 30%;
+}
+
+.logo a {
+  color: var(--primary-color)
+}
+
+.btn--login {
+  background: var(--secondary-color);
+  border-radius: 0;
+  color: var(--crimson-t3);
+}
+
+.btn--login:hover {
+	background: var(--black-s2);
+
+}
+
+.user-profile-icon, .user-profile-cart {
+  position: relative;
+  ;
+}
+
+.icon-number {
+  background-color: var(--primary-color);
+  border-radius: 80%;
+  border: 1px solid var(--secondary-color);
+  width: 2rem;
+  height: 2rem;
+  color: var(--teritiary-color);
+  text-align: center;
+  font-size: 1.4rem;
+  position: absolute;
+  top: -10px;
+  left: 20px;
+}
+
+/*********************/
+/****HERO SECTION***/
+/********************/
+.hero-wrapper {
+  background-image: url("https://images.pexels.com/photos/846741/pexels-photo-846741.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-position: center;
+  background-size: cover;
+  height: 80vh;
+}
+
+.hero-primary-cta {
+  font-size: 2rem;
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  width: 10%;
+}
+
+.hero-primary-cta:hover{
+	 background: #4f0e28;
+  background: var(--crimson-s3);
+}
+
+/***********************/
+/***Featured Section ***/
+/***********************/
+.section-featured {
+  background-color: #f3e8ec;
+}
+
+.featured-wrapper {
+  height: auto;
+}
+
+.vt--card-container{
+	background: var(--black-s3);
+	border-radius:0;
+}
+.vt--card-text-box {
+  width: 100%;
+}
+
+.primary-cta--card:hover {
+  background-color: var(--crimson-t3);
+}
