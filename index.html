@@ -1,10 +1,212 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>BreeCart</title>
-	</head>
-	<body> </body>
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>BreeCart</title>
+	<link rel="stylesheet" href="https://breez-ui.netlify.app/style.css" />
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+
+	<link rel="stylesheet" href="./css/homepage.css" />
+	<link rel="stylesheet" href="./shared/shared.css">
+	<link rel="stylesheet" href="./shared/spacing-design.css">
+</head>
+
+<body>
+
+
+	<!-- Section header starts -->
+	<div class="nav-container">
+		<div class="logo "><a href="" class="tx-bold">BreeZecart</a></div>
+
+
+		<input type="search" class="navbar-search" placeholder="search for products" />
+		<a href="#" class="btn btn--primary btn--login">LOGIN</a>
+		<div class="usericon-container">
+			<a class="user-profile-icon">
+				<i class="fas fa-shopping-cart"></i>
+				<span class="icon-number">4</span>
+			</a>
+			<a class="user-profile-cart">
+				<i class="fas fa-heart"></i>
+				<span class="icon-number">2</span>
+			</a>
+		</div>
+	</div>
+	<!-- Section header ends -->
+
+
+	<!-- Section hero starts -->
+
+	<section class="section-hero">
+		<div class="hero-wrapper">
+			<div class="hero-text flex-vt-sp pl-024 pt-048">
+				<h1 class="primary-heading bz-color">Welcome to BreeCart</h1>
+				<p class="paragraph bz-color text-uppercase tx-bold mt-0"> Get your products delivered
+					<br>with the speed of breeeze
+				</p>
+				<a href="./pages/products.html" class="btn btn--primary hero-primary-cta">Shop Now</a>
+			</div>
+		</div>
+	</section>
+
+	<!-- section hero ends -->
+
+
+	<!-- section featured starts -->
+
+	<section class="section-featured mb-4 pb-4">
+		<h2 class="secondary-heading bz-color">Featured Products</h2>
+		<div class="featured-wrapper grid--3-col">
+
+			<!-- card 1 -->
+			<div class="vt--card-container ">
+				<div class="vt--card-img-box">
+					<img src="./assets/card-image.jpg">
+				</div>
+
+				<div class="vt--card-text-box pd-lr">
+					<p class="vt--product-name text-uppercase margin-bottom-xsm">White Shirt</p>
+					<p class="vt--product-description margin-bottom-xsm">White shirt for men</p>
+					<p class="vt--product-price margin-bottom-xsm"> Rs.400 <span class="bz-color">(50% OFF)</span></p>
+
+					<div class="vt--card-btn-box">
+						<a href="" class="btn  primary-cta--card card-cta-btn">Add to cart</a>
+						<a href="" class="btn  secondary-cta--card card-cta-btn">Save to wishlist</a>
+					</div>
+				</div>
+			</div>
+			<!-- card 1 -->
+
+			<!-- card 2 -->
+			<div class="vt--card-container ">
+				<div class="vt--card-img-box">
+					<img src="./assets/featured-03.jpg">
+				</div>
+
+				<div class="vt--card-text-box pd-lr">
+					<p class="vt--product-name text-uppercase margin-bottom-xsm ">Green Trouser</p>
+					<p class="vt--product-description margin-bottom-xsm ">Cotton Trouser For Kids</p>
+					<p class="vt--product-price margin-bottom-xsm"> Rs.240 <span class="bz-color">(56% OFF)</span></p>
+
+					<div class="vt--card-btn-box">
+						<a href="" class="btn  primary-cta--card card-cta-btn">Add to cart</a>
+						<a href="" class="btn  secondary-cta--card card-cta-btn">Save to wishlist</a>
+					</div>
+				</div>
+
+
+			</div>
+			<!-- card 2 -->
+
+			<!-- card3 -->
+			<div class="vt--card-container ">
+				<div class="vt--card-img-box">
+					<img src="./assets/featured-02.jpeg">
+				</div>
+
+				<div class="vt--card-text-box pd-lr">
+					<p class="vt--product-name text-uppercase margin-bottom-xsm ">White Shirt</p>
+					<p class="vt--product-description margin-bottom-xsm ">White shirt for men</p>
+					<p class="vt--product-price margin-bottom-xsm"> Rs.100 <span class="bz-color">(80% OFF)</span></p>
+
+					<div class="vt--card-btn-box">
+						<a href="" class="btn  primary-cta--card card-cta-btn">Add to cart</a>
+						<a href="" class="btn  secondary-cta--card card-cta-btn">Save to wishlist</a>
+					</div>
+				</div>
+			</div>
+			<!-- card3 -->
+
+		</div>
+
+
+	</section>
+	<!-- section featured ends -->
+
+
+	<!-- New Arrivals Section Starts -->
+
+	<section class="section-newArrivals mb-4">
+		<h2 class="secondary-heading bz-color">BreeCart New Arrivals</h2>
+		<div class="newArrivals-wrapper grid--3-col">
+
+			<!-- card 1 -->
+			<div class="vt--card-container ">
+				<div class="vt--card-img-box">
+					<img src="./assets/new_arrivals_01.jpg">
+				</div>
+
+				<div class="vt--card-text-box pd-lr">
+					<span class="badge-icon tx-md">NEW</span>
+
+					<p class="vt--product-name text-uppercase margin-bottom-xsm ">Blue Thirt</p>
+					<p class="vt--product-description margin-bottom-xsm ">Blue Tshirt For men</p>
+					<p class="vt--product-price margin-bottom-xsm"> Rs.100 <span class="bz-color">(80% OFF)</span></p>
+
+					<div class="vt--card-btn-box">
+						<a href="" class="btn  primary-cta--card card-cta-btn">Add to cart</a>
+						<a href="" class="btn  secondary-cta--card card-cta-btn">Save to wishlist</a>
+					</div>
+				</div>
+
+
+			</div>
+			<!-- card 1 -->
+
+			<!-- card 2 -->
+			<div class="vt--card-container ">
+				<div class="vt--card-img-box">
+					<img src="./assets/new_arrivals_02.jpg">
+				</div>
+
+				<div class="vt--card-text-box pd-lr">
+					<span class="badge-icon tx-md">NEW</span>
+
+					<p class="vt--product-name text-uppercase margin-bottom-xsm ">Blazer</p>
+					<p class="vt--product-description margin-bottom-xsm ">Slim Fit Blazer Casuals</p>
+					<p class="vt--product-price margin-bottom-xsm"> Rs.100 <span class="bz-color">(80% OFF)</span></p>
+
+					<div class="vt--card-btn-box">
+						<a href="" class="btn  primary-cta--card card-cta-btn">Add to cart</a>
+						<a href="" class="btn  secondary-cta--card card-cta-btn">Save to wishlist</a>
+					</div>
+				</div>
+
+
+			</div>
+			<!-- card 2 -->
+
+			<!-- card 3 -->
+			<div class="vt--card-container ">
+				<div class="vt--card-img-box">
+					<img src="./assets/new_arrivals_03.jpg">
+				</div>
+
+				<div class="vt--card-text-box pd-lr">
+					<span class="badge-icon tx-md">NEW</span>
+
+					<p class="vt--product-name text-uppercase margin-bottom-xsm ">Sunglasses</p>
+					<p class="vt--product-description margin-bottom-xsm ">Sunglasses For Men</p>
+					<p class="vt--product-price margin-bottom-xsm"> Rs.200 <span class="bz-color">(30% OFF)</span></p>
+
+					<div class="vt--card-btn-box">
+						<a href="" class="btn  primary-cta--card card-cta-btn">Add to cart</a>
+						<a href="" class="btn  secondary-cta--card card-cta-btn">Save to wishlist</a>
+					</div>
+				</div>
+
+
+			</div>
+			<!-- card 3 -->
+
+		</div>
+		<!-- New Arrivals Section Ends -->
+	</section>
+
+
+</body>
+
 </html>
