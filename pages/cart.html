@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Cart</title>
+
+  <link rel="stylesheet" href="https://breez-u-i.netlify.app/style.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+
+  <link rel="stylesheet" href="../css/homepage.css" />
+  <link rel="stylesheet" href="../css/productslist.css" />
+  <link rel="stylesheet" href="../css/cart.css" />
+
+</head>
+
+<body>
+
+  <!-- Section header starts -->
+  <div class="nav-container">
+    <div class="logo "><a href="../index.html" class="tx-bold">BreeZecart</a></div>
+
+
+    <input type="search" class="navbar-search" placeholder="search for products" />
+    <a href="#" class="btn btn--primary btn--login">LOGIN</a>
+    <div class="usericon-container">
+      <a href="./pages/cart.html" class="user-profile-cart">
+        <i class="fas fa-shopping-cart mr-024"></i>
+        <span class="icon-number">4</span>
+      </a>
+      <a href = "./products.html" class="user-profile-wishlist">
+        <i class="fas fa-heart"></i>
+        <span class="icon-number">2</span>
+      </a>
+    </div>
+  </div>
+  <!-- Section header ends -->
+
+  <!-- Section main starts -->
+  <div class="cart-main-container grid--2-col">
+    <div class="cart-item-showcase ml-048">
+      <div class="hz--card-container mt-048 p-016">
+        <div class="hz--card-img-box">
+          <img src="../assets/new_arrivals_01.jpg">
+        </div>
+
+
+        <div class="hz--card-text-box flex-col-sb">
+          <p class="paragraph product-name">Men Shirt</p>
+          <div class="product-price-details">
+            <span class="tx-lg mr-024"><b>$4000</b></span>
+            <span class=" tx-sm tx-st tx-light">$5999</span>
+          </div>
+
+          <div class="product-discount">
+            <span class="discounted-percentage tx-md ">45% Off</span>
+          </div>
+
+          <div class="product-quantity flex-row-sb">
+            <span class="tx-md mr-024">Quantity :</span>
+            <button class="btn-quantity btn--quantity-dec">-</button>
+            <input type="number" class="product-quantity-number">
+            <button class="btn-quantity btn--quantity-inc">+</button>
+          </div>
+
+          <div class="hz--card-btn-box mt-048">
+            <a href="" class="btn  primary-cta--card card-cta-btn">Remove from Cart</a>
+            <a href="" class="btn  secondary-cta--card card-cta-btn">Move to wishlist</a>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+
+    <div class="cart-item-checkout">
+      <div class="cart-item-checkout-showcase mt-024 mr-048 p-032 pb-048 flex-col-sb">
+          <div class="checkout-text flex-col-sb mt-04">
+            <h2 class="checkout-title">PRICE DETAILS</h2>
+            <hr>
+
+            <div class="row-1 flex-row-sb">
+              <p class="tx-sm">Price (1 item)</p>
+              <span class="checkout-price tx-sm">4999</span>
+            </div>
+
+            <div class="row-2 flex-row-sb">
+              <p class="tx-sm">Discount</p>
+              <span class="checkout-price tx-sm">-1999</span>
+            </div>
+
+            <div class="row-3 flex-row-sb">
+              <p class="tx-sm">Delivery Charges</p>
+              <span class="checkout-price tx-sm">499</span>
+            </div>
+
+            <hr>
+
+            <div class="checkout-total-amount flex-row-sb">
+              <p class="checkout-total-amount-title tx-sm"><b>TOTAL AMOUNT</b></p>
+              <span class="checkout-total-amount-price tx-sm">3499</span>
+            </div>
+
+            <hr>
+
+          </div>
+
+          <div class="checkout-footer ">
+            <p class="tx-sm">You will save 200 on this item.</p>
+            <a href="" class="btn btn-checkout-cta mt-048">Place Order</a>
+          </div>
+
+      </div>
+
+    </div>
+  </div>
+  <!-- Section main starts -->
+
+</body>
+
+</html>
