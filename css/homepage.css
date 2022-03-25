@@ -48,9 +48,13 @@ html {
 
 }
 
-.user-profile-icon, .user-profile-cart {
+.user-profile-cart{
   position: relative;
-  ;
+}
+
+
+.user-profile-wishlist {
+  position: relative;
 }
 
 .icon-number {
