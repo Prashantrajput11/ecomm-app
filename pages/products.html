@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Products</title>
+	<link rel="stylesheet" href="https://demo-cl.netlify.app/style.css" />
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+	<link rel="stylesheet" href="https://breez-ui.netlify.app/style.css" />
+
+	<link rel="stylesheet" href="../css/homepage.css" />
+	<link rel="stylesheet" href="../shared/shared.css" />
+	<link rel="stylesheet" href="../shared/typography.css" />
+	<link rel="stylesheet" href="../shared/spacing-design.css" />
+	<link rel="stylesheet" href="../shared/layout.css" />
+	<link rel="stylesheet" href="../css/productslist.css" />
+</head>
+
+<body>
+	<div class="nav-container">
+		<div class="logo"><a href="/index.html" class="tx-bold">BreeZecart</a></div>
+
+
+		<input type="search" class="navbar-search" placeholder="search for products" />
+		<a href="" class="btn btn--primary btn--login">LOGIN</a>
+		<div class="usericon-container">
+			<a class="user-profile-cart">
+				<i class="fas fa-shopping-cart mr-024"></i>
+				<span class="icon-number">4</span>
+			</a>
+			<a href="./cart.html" class="user-profile-wishlist">
+				<i class="fas fa-heart"></i>
+				<span class="icon-number">2</span>
+			</a>
+		</div>
+	</div>
+
+	<main class="main-container grid--2-col">
+		<div class="sidebar-col mt-024 ml-024 pt-024">
+			<div class="filter-wrapper flex-row-sb mlr-016">
+				<span class="wrapper-title tx-sm">FILTERS</span>
+				<span class="tx-ul tx-sm">CLEAR</span>
+			</div>
+			<hr />
+			<div class="slider-wrapper flex-col-sb">
+				<h4 class="slider-title tx-md pl-1 mb-1">Price</h4>
+				<p class="tx-md pl-1 flex-row-sb">
+					<span class="min-price">$200</span>
+					<span class="max-price pr-1">$7000</span>
+				</p>
+				<input type="range" class="slider pl-1" min="0" max="0" />
+			</div>
+
+			<hr />
+			<div class="categories-wrapper">
+				<h4 class="categories-title tx-md pl-1">CATEGORIES</h4>
+				<ul class="categories-list">
+					<li>
+						<input type="checkbox" value="Tshirts" />
+						<label>Men Clothing</label>
+					</li>
+
+					<li>
+						<input type="checkbox" value="Blazers" />
+						<label>WoMen Clothing</label>
+					</li>
+				</ul>
+			</div>
+
+			<hr />
+			<div class="rating-wrapper">
+				<h4 class="rating-title tx-md pl-1">Rating</h4>
+				<ul class="rating-list">
+					<li>
+						<input type="radio" value="Tshirts" />
+						<label>4 star and above</label>
+					</li>
+
+					<li>
+						<input type="radio" value="Blazers" />
+						<label>3 star and above</label>
+					</li>
+					<li>
+						<input type="radio" value="Blazers" />
+						<label>2 star and above</label>
+					</li>
+					<li>
+						<input type="radio" value="Blazers" />
+						<label>1 star and above</label>
+					</li>
+				</ul>
+			</div>
+
+			<hr />
+			<div class="sort-wrapper">
+				<h4 class="sort-title tx-md pl-1">Sort</h4>
+				<ul class="sort-list">
+					<li>
+						<input type="radio" value="Tshirts" />
+						<label>Price : Low to high</label>
+					</li>
+
+					<li>
+						<input type="radio" value="Blazers" />
+						<label>Price : Low to high</label>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="products-col mt-024 ml-024 mr-024 grid--3-col">
+			<div class="vt--card-container">
+				<div class="vt--card-img-box">
+					<img src="../assets/new_arrivals_01.jpg" />
+				</div>
+
+				<div class="vt--card-text-box pd-lr">
+					<span class="badge-icon tx-md"> <i class="fas fa-heart"></i> </span>
+
+					<p class="vt--product-name text-uppercase margin-bottom-xsm">Blue Thirt</p>
+					<p class="vt--product-description margin-bottom-xsm">Blue Tshirt For men</p>
+					<p class="vt--product-price margin-bottom-xsm">
+						Rs.100 <span class="bz-color">(30% OFF)</span></p>
+
+					<div class="vt--card-btn-box">
+						<a href="" class="btn primary-cta--card card-cta-btn">Add to cart</a>
+					</div>
+				</div>
+			</div>
+			<div class="vt--card-container">
+				<div class="vt--card-img-box">
+					<img src="../assets/new_arrivals_01.jpg" />
+				</div>
+
+				<div class="vt--card-text-box pd-lr">
+					<span class="badge-icon tx-md"><i class="fas fa-heart"></i></span>
+
+					<p class="vt--product-name text-uppercase margin-bottom-xsm">Blue Thirt</p>
+					<p class="vt--product-description margin-bottom-xsm">Blue Tshirt For men</p>
+					<p class="vt--product-price margin-bottom-xsm">
+						Rs.100 <span class="bz-color">(40% OFF)</span></p>
+
+					<div class="vt--card-btn-box">
+						<a href="" class="btn primary-cta--card card-cta-btn">Add to cart</a>
+					</div>
+				</div>
+			</div>
+			<div class="vt--card-container">
+				<div class="vt--card-img-box">
+					<img src="../assets/new_arrivals_01.jpg" />
+				</div>
+
+				<div class="vt--card-text-box pd-lr">
+					<span class="badge-icon tx-md"> <i class="fas fa-heart"></i> </span>
+
+					<p class="vt--product-name text-uppercase margin-bottom-xsm">Blue Thirt</p>
+					<p class="vt--product-description margin-bottom-xsm">Blue Tshirt For men</p>
+					<p class="vt--product-price margin-bottom-xsm">
+						Rs.100 <span class="bz-color">(60% OFF)</span></p>
+
+					<div class="vt--card-btn-box">
+						<a href="" class="btn primary-cta--card card-cta-btn">Add to cart</a>
+					</div>
+				</div>
+			</div>
+			<div class="vt--card-container">
+				<div class="vt--card-img-box">
+					<img src="../assets/new_arrivals_04.jpg" />
+				</div>
+
+				<div class="vt--card-text-box pd-lr">
+					<span class="badge-icon tx-md">
+						<i class="fas fa-heart"></i>
+					</span>
+
+					<p class="vt--product-name text-uppercase margin-bottom-xsm">Maroon Sweater</p>
+					<p class="vt--product-description margin-bottom-xsm">Maroon sweater for ladies</p>
+					<p class="vt--product-price margin-bottom-xsm">
+						Rs.100 <span class="bz-color">(23% OFF)</span></p>
+
+					<div class="vt--card-btn-box">
+						<a href="" class="btn primary-cta--card card-cta-btn">Add to cart</a>
+					</div>
+				</div>
+			</div>
+			<div class="vt--card-container">
+				<div class="vt--card-img-box">
+					<img src="../assets/new_arrivals_02.jpg" />
+				</div>
+
+				<div class="vt--card-text-box pd-lr">
+					<span class="badge-icon tx-md">
+						<i class="fas fa-heart"></i>
+					</span>
+
+					<p class="vt--product-name text-uppercase margin-bottom-xsm">Blue Thirt</p>
+					<p class="vt--product-description margin-bottom-xsm">Blue Tshirt For men</p>
+					<p class="vt--product-price margin-bottom-xsm">
+						Rs.100 <span class="bz-color">(80% OFF)</span></p>
+
+					<div class="vt--card-btn-box">
+						<a href="" class="btn primary-cta--card card-cta-btn">Add to cart</a>
+					</div>
+				</div>
+			</div>
+			<div class="vt--card-container">
+				<div class="vt--card-img-box">
+					<img src="../assets/new_arrivals_01.jpg" />
+				</div>
+
+				<div class="vt--card-text-box pd-lr">
+					<span class="badge-icon tx-md">
+						<i class="fas fa-heart last-child"></i>
+					</span>
+
+					<p class="vt--product-name text-uppercase margin-bottom-xsm">Blue Thirt</p>
+					<p class="vt--product-description margin-bottom-xsm">Blue Tshirt For men</p>
+					<p class="vt--product-price margin-bottom-xsm">
+						Rs.100 <span class="bz-color">(80% OFF)</span></p>
+
+					<div class="vt--card-btn-box">
+						<a href="" class="btn primary-cta--card card-cta-btn">Add to cart</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+</body>
+
+</html>
