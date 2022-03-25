@@ -13,8 +13,6 @@ html {
   flex-direction: column;
   justify-content: space-around;
 
-  /* border: 2px solid red; */
-  /* margin: 2rem 0; */
 }
 
 
@@ -42,11 +40,11 @@ html {
 .btn--login {
   background: var(--secondary-color);
   border-radius: 0;
-  color: #4d4d4d;
+  color: var(--crimson-t3);
 }
 
 .btn--login:hover {
-	background: #b8b8b8;
+	background: var(--black-s2);
 
 }
 
@@ -79,8 +77,6 @@ html {
   height: 80vh;
 }
 
-
-
 .hero-primary-cta {
   font-size: 2rem;
   background: var(--primary-color);
@@ -90,8 +86,7 @@ html {
 
 .hero-primary-cta:hover{
 	 background: #4f0e28;
-	/*change after updating cl */
-  /* background: var(--crimson-s3); */
+  background: var(--crimson-s3);
 }
 
 /***********************/
@@ -114,5 +109,5 @@ html {
 }
 
 .primary-cta--card:hover {
-  background-color: #4f0e28;
+  background-color: var(--crimson-t3);
 }
