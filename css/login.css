@@ -1,0 +1,36 @@
+
+
+.login-container{
+  background: var(--black-s5);
+  width: 40rem;
+  height: 40rem;
+  margin: 10rem auto;
+}
+.login-input-container{
+  width: 30rem;
+  height: 70%;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.input1, .input2{
+  display: flex;
+  flex-direction: column;
+  width:100%;
+}
+
+input[type=text],input[type=password], input[type=email]{
+  border: 2px solid var(--primary-color);
+}
+
+.btn-auth-cta{
+  color: var(--black-s3);
+  background: var(--primary-color);
+  width:80%;
+  border-radius:0;
+}
+
+.fa-chevron-right{
+  color:black;
+}
