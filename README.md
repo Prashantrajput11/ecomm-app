@@ -36,4 +36,11 @@ Markup :  - - - -
 
 ### Wishlist
 
+<img width="1436" alt="image" src="https://user-images.githubusercontent.com/69415658/160234608-e3a3e79d-b275-4074-92ca-34e1daea6887.png">
+### Login page
 
+<img width="1428" alt="image" src="https://user-images.githubusercontent.com/69415658/160234627-06f5da93-cb0d-4891-a904-677195783569.png">
+
+
+### Signup Page
+<img width="1419" alt="image" src="https://user-images.githubusercontent.com/69415658/160234659-46de89ef-a6ed-42cf-9333-d1d3512f4e1c.png">
